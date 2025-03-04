@@ -8,6 +8,11 @@ body {
     background-color: #FFF0FB;
 }
 
+.cupcake-recipe {
+    display: inline-block;
+    gap: 25px;
+}
+
 h1 {
     font-family: sans-serif;
 }
@@ -60,6 +65,106 @@ img {
 
 h1 {
     font-family: sans-serif;
+}
+
+@media screen and (min-width: 834px) {
+    h1 {
+        font-size: 100px;
+    }
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+@media screen and (min-width: 834px) {
+    h2 {
+        font-size: 100px;
+    }
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+@media screen and (min-width: 834px) {
+    h3 {
+        font-size: 100px;
+    }
+}
+
+p {
+    font-family: sans-serif;
+}
+
+@media screen and (min-width: 834px) {
+    p {
+        font-size: 100px;
+    }
+}
+
+img {
+    font-family: sans-serif;
+}
+
+@media screen and (min-width: 834px) {
+    img {
+        font-size: 100px;
+    }
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+@media screen and (min-width: 320px) {
+    h1 {
+        font-size: 100px;
+    }
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+@media screen and (min-width: 320px) {
+    h2 {
+        font-size: 100px;
+    }
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+@media screen and (min-width: 320px) {
+    h3 {
+        font-size: 100px;
+    }
+}
+
+p {
+    font-family: sans-serif;
+}
+
+@media screen and (min-width: 320px) {
+    p {
+        font-size: 100px;
+    }
+}
+
+img {
+    font-family: sans-serif;
+}
+
+@media screen and (min-width: 320px) {
+    img {
+        font-size: 100px;
+    }
+}
+
+h1 {
+    font-family: sans-serif;
     position: relative;
     display: inline-block;
     z-index: 1;
@@ -87,7 +192,7 @@ h3::after {
     content: "";
     background: pink;
     width: 100%;
-    height: 100%;
+    height: 110%;
     display: block;
     position: absolute;
     bottom: 0;
@@ -117,7 +222,7 @@ h2 {
     font-family: "Cherry Swash", serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 50px;
+    font-size: 65px;
 }
 
 h3 {
@@ -170,3 +275,10 @@ h3 {
 }
 
 /* Used this link to help with image and text centering: https://www.w3schools.com/css/css_align.asp */
+
+h2 {
+    color: #9B0B10;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* Used this link to help with text shadow effects: https://www.w3schools.com/css/css3_shadows.asp */
