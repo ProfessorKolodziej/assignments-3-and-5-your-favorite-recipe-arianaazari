@@ -179,6 +179,8 @@ h1::after {
     position: absolute;
     bottom: 0;
     z-index: -1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
 
 h3 {
@@ -197,6 +199,8 @@ h3::after {
     position: absolute;
     bottom: 0;
     z-index: -1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
 
 h1 {
@@ -243,7 +247,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;
+    width: 34%;
 }
 
 p {
@@ -274,11 +278,16 @@ h3 {
     width: 35%;
 }
 
-/* Used this link to help with image and text centering: https://www.w3schools.com/css/css_align.asp */
+/* Used this link to help with text and image centering: https://www.w3schools.com/css/css_align.asp */
 
 h2 {
     color: #9B0B10;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: -1px 0 pink, 0 1px pink, 1px 0 pink, 0 -1px pink;
 }
 
-/* Used this link to help with text shadow effects: https://www.w3schools.com/css/css3_shadows.asp */
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+/* Used this link to help with text and image shadow effects: https://www.w3schools.com/css/css3_shadows.asp */
