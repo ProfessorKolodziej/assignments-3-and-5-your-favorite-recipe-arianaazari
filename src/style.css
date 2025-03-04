@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #FFF0FB;
+    background-color: #FFE5F6;
 }
 
 h1 {
@@ -286,3 +286,17 @@ img {
 }
 
 /* Used this link to help with text and image shadow effects: https://www.w3schools.com/css/css3_shadows.asp */
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+}
