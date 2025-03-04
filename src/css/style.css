@@ -1,11 +1,19 @@
-@media screen and (width >= 320px) {
+@media screen and (width >=320px) {
 	#some-id {
 		color: red;
 	}
 }
 
-@media screen and (width >= 500px) {
+@media screen and (width >=500px) {
 	#some-id {
 		color: red;
 	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	background-color: #9B0B10;
 }
