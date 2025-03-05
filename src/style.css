@@ -207,7 +207,7 @@ h3::after {
 
 .text-grid::after {
     content: "";
-    background: #FFEFEF;
+    background: #FFD1D2;
     width: 100%;
     height: 100%;
     display: block;
@@ -216,7 +216,10 @@ h3::after {
     z-index: -1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
+    box-shadow: 10px 10px 5px pink;
 }
+
+/* Used this link to help with box shadow effects: https://www.w3schools.com/css/css3_shadows_box.asp */
 
 h1 {
     color: #9B0B10;
@@ -314,7 +317,7 @@ img {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    padding: 40px;
+    padding: 25px;
 }
 
 .image-grid img {
