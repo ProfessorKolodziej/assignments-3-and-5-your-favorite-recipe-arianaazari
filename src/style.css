@@ -158,10 +158,6 @@ img {
     }
 }
 
-.first-image {
-    border-radius: 50%;
-}
-
 h1 {
     font-family: sans-serif;
     position: relative;
@@ -319,7 +315,13 @@ img {
     border-radius: 12px;
 }
 
-/* Used this link to help with border radius effects: https://www.w3schools.com/css/css3_images.asp */
+.red-velvet {
+    border-radius: 50%;
+}
+
+/* Used this link to help with border radius effects and added a 
+.red-velvet class to identify the first image against the others
+: https://www.w3schools.com/css/css3_images.asp */
 
 .image-container {
     position: relative;
