@@ -340,6 +340,12 @@ img {
 }
 
 /* Used ChatGPT in CSS and HTML for the image grid/text grid element (images and text labeled 1-8) 
-to show the steps of the recipe and to place the images side by side. 
+to show the steps of the recipe and to place the images/text side by side. 
 I asked ChatGPT "How do I make 4 images appear 2 by 2 in CSS?" 
-It gave me the image-grid/text-grid code/div in CSS and HTML */
+It gave me the image-grid/text-grid code/div for the CSS and HTML */
+
+img {
+    border-radius: 12px;
+}
+
+/* Used this link to help with border radius effects: https://www.w3schools.com/css/css3_images.asp */
