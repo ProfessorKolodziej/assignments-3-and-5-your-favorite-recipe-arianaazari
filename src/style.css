@@ -18,28 +18,6 @@ h1 {
     }
 }
 
-.text-grid {
-    font-family: sans-serif;
-}
-
-@media screen and (min-width: 1280px) {
-    .text-grid {
-        font-size: 100px;
-    }
-}
-
-
-.image-grid {
-    font-family: sans-serif;
-}
-
-@media screen and (min-width: 1280px) {
-    .image-grid {
-        font-size: 100px;
-    }
-}
-
-
 h2 {
     font-family: sans-serif;
 }
@@ -90,17 +68,6 @@ h1 {
     }
 }
 
-.image-grid {
-    font-family: sans-serif;
-}
-
-@media screen and (min-width: 834px) {
-    .image-grid {
-        font-size: 100px;
-    }
-}
-
-
 h2 {
     font-family: sans-serif;
 }
@@ -147,16 +114,6 @@ h1 {
 
 @media screen and (min-width: 320px) {
     h1 {
-        font-size: 100px;
-    }
-}
-
-.image-grid {
-    font-family: sans-serif;
-}
-
-@media screen and (min-width: 320px) {
-    .image-grid {
         font-size: 100px;
     }
 }
@@ -382,7 +339,7 @@ img {
     height: auto;
 }
 
-/* Used ChatGPT in CSS and HTML for the image grid/text grid element (images labeled 1-8) 
+/* Used ChatGPT in CSS and HTML for the image grid/text grid element (images and text labeled 1-8) 
 to show the steps of the recipe and to place the images side by side. 
 I asked ChatGPT "How do I make 4 images appear 2 by 2 in CSS?" 
 It gave me the image-grid/text-grid code/div in CSS and HTML */
