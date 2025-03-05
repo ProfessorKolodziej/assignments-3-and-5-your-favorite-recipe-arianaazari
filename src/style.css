@@ -176,6 +176,7 @@ h1::after {
     z-index: -1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
+    box-shadow: 20px 20px #9B0B10;
 }
 
 h3 {
@@ -196,27 +197,7 @@ h3::after {
     z-index: -1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
-}
-
-.text-grid {
-    font-family: sans-serif;
-    position: relative;
-    display: inline-block;
-    z-index: 1;
-}
-
-.text-grid::after {
-    content: "";
-    background: #FFD1D2;
-    width: 95%;
-    height: 100%;
-    display: block;
-    position: absolute;
-    bottom: 0;
-    z-index: -1;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-    box-shadow: 25px 25px 20px pink;
+    box-shadow: 20px 20px #9B0B10;
 }
 
 /* Used this link to help with box shadow effects: https://www.w3schools.com/css/css3_shadows_box.asp */
@@ -300,7 +281,7 @@ h3 {
 
 h2 {
     color: #9B0B10;
-    text-shadow: -1px 0 pink, 0 1px pink, 1px 0 pink, 0 -1px pink;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 img {
@@ -325,27 +306,42 @@ img {
     height: auto;
 }
 
-.text-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.text-grid p {
-    width: 80%;
-    height: auto;
-}
-
 /* Used ChatGPT in CSS and HTML for the image grid/text grid element (images and text labeled 1-8) 
 to show the steps of the recipe and to place the images/text side by side. 
 I asked ChatGPT "How do I make 4 images appear 2 by 2 in CSS?" 
-It gave me the image-grid/text-grid code/div for the CSS and HTML */
+It gave me the .image-grid code/div for the CSS and HTML */
 
 img {
     border-radius: 12px;
 }
 
 /* Used this link to help with border radius effects: https://www.w3schools.com/css/css3_images.asp */
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 22px;
+    font-weight: normal;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Used ChatGPT in CSS and HTML for the text over image element (images and text labeled 1-8) 
+to show the steps of the recipe. I asked ChatGPT "How do I add text on top of an image, 
+but ensure that it matches up with the correct image in CSS?" 
+It gave me the .image-container and .overlay-text code/div for the CSS and HTML */
