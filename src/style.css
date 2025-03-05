@@ -18,6 +18,28 @@ h1 {
     }
 }
 
+.text-grid {
+    font-family: sans-serif;
+}
+
+@media screen and (min-width: 1280px) {
+    .text-grid {
+        font-size: 100px;
+    }
+}
+
+
+.image-grid {
+    font-family: sans-serif;
+}
+
+@media screen and (min-width: 1280px) {
+    .image-grid {
+        font-size: 100px;
+    }
+}
+
+
 h2 {
     font-family: sans-serif;
 }
@@ -67,6 +89,17 @@ h1 {
         font-size: 100px;
     }
 }
+
+.image-grid {
+    font-family: sans-serif;
+}
+
+@media screen and (min-width: 834px) {
+    .image-grid {
+        font-size: 100px;
+    }
+}
+
 
 h2 {
     font-family: sans-serif;
@@ -114,6 +147,16 @@ h1 {
 
 @media screen and (min-width: 320px) {
     h1 {
+        font-size: 100px;
+    }
+}
+
+.image-grid {
+    font-family: sans-serif;
+}
+
+@media screen and (min-width: 320px) {
+    .image-grid {
         font-size: 100px;
     }
 }
@@ -208,7 +251,7 @@ h3::after {
 .text-grid::after {
     content: "";
     background: #FFD1D2;
-    width: 100%;
+    width: 95%;
     height: 100%;
     display: block;
     position: absolute;
@@ -216,7 +259,7 @@ h3::after {
     z-index: -1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
-    box-shadow: 10px 10px 5px pink;
+    box-shadow: 25px 25px 20px pink;
 }
 
 /* Used this link to help with box shadow effects: https://www.w3schools.com/css/css3_shadows_box.asp */
@@ -335,7 +378,7 @@ img {
 }
 
 .text-grid p {
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
