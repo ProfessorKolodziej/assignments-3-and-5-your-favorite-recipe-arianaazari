@@ -300,3 +300,22 @@ img {
     width: 100%;
     height: auto;
 }
+
+.text-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-grid p {
+    width: 100%;
+    height: auto;
+}
+
+/* Used ChatGPT in CSS and HTML for the image grid/text grid element (images labeled 1-8) 
+to show the steps of the recipe and to place the images side by side. 
+I asked ChatGPT "How do I make 4 images appear 2 by 2 in CSS?" 
+It gave me the image-grid/text-grid code/div in CSS and HTML */
