@@ -349,9 +349,8 @@ img {
     border-radius: 5px;
 }
 
-/* Used ChatGPT in CSS and HTML for the text over image element instead of using the ul or ol tags 
-(images and text labeled 1-8) to show the steps of the recipe. 
-I asked ChatGPT "How do I add text on top of an image, 
+/* Used ChatGPT in CSS and HTML for the text over image element (images and text labeled 1-8) 
+to show the steps of the recipe. I asked ChatGPT "How do I add text on top of an image, 
 but ensure that it matches up with the correct image in CSS?" 
 It gave me the .image-container and .overlay-text code/div for the CSS and HTML */
 
